@@ -76,3 +76,30 @@ b = 50
 modulo = a % b
 print("El módulo de a y b es:", modulo) 
 print("El tipo de variable:", type(modulo))
+
+## Jerarquia de las operaciones.
+
+## y = mx + b
+## y = (10)(2) + 5
+
+m = 10
+x = 2
+b = 5 
+
+y =  (m * x) + b
+
+print('Pendiente = ', m,'variable = ', x, 'Punto de corte = ', b)
+print ('y = mx + b =','(', m,'*',x,')','+',b,'=', y )
+
+## Ingreso de datos en python.
+
+variable_A = input('Digite el valor de la variable A = ') 
+variable_B = input('Digite el valor de la variable B = ')
+
+A = int(variable_A)
+B = int(variable_B)
+
+print('El resultado de la suma es =', A + B)
+
+## Realizar un algortimo que ingrese Vcc, R1 y R2.
+## Calcule un divisor de voltaje.
